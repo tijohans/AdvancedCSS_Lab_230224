@@ -1,21 +1,29 @@
+main{
+    margin: 0 auto;
+    max-width: 80%
+}
+
 .nav-container{
   border-bottom: solid gray 1px;
-  display: flexbox;
+  display: flex;
   width: 100%;
   height: 5em;
 }
 .nav-logo{
     display: flex;
-    justify-content: flex-start;
+    flex: 1;
+    justify-content: start;
     max-width: 10%;
     height: 95%;
 }
 .nav-options{
     display: flex;
-    justify-content: flex-end;
+    flex: 1;
+    justify-content: end;
+    align-items: center;
     max-height: 95% ;
 }
-li{
+.nav-options li{
     display: inline;
     margin-right: 1.5em; 
 }
