@@ -1,1 +1,12 @@
-
+.nav-container{
+    border: 50px  solid black;
+}
+.nav-logo{
+    display: inline;
+}
+.nav-options{
+    display: inline;
+}
+li{
+    display: inline;
+}
