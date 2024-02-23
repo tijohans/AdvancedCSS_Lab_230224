@@ -1,5 +1,5 @@
 .nav-container{
-    border: 50px  solid black;
+  border-bottom: solid black 5px;
 }
 .nav-logo{
     display: inline;
