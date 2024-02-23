@@ -1,24 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Advanced CSS Lab</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header class="header">
-        <figure>
-            <img class="header__logo" src="img/project-imgs/finn_sc_2.png" alt="Finn logo">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <figure class="header__logo">
+          <img src="img/project-imgs/finn_sc_2.png" alt="Finn logo" />
         </figure>
         <ul class="header__nav">
-            <li>Mulighetenes marked</li>
-            <li>Varslinger</li>
-            <li>Ny annonse</li>
-            <li>Meldinger</li>
-            <li>Min FINN</li>
+          <li><h1>Mulighetenes marked</h1></li>
+          <li>Varslinger</li>
+          <li>Ny annonse</li>
+          <li>Meldinger</li>
+          <li>Min FINN</li>
         </ul>
-    </header>
-    
-</body>
+      </header>
+      <div class="search">
+        <form class="search__bar" action="">
+          <input type="text" />
+        </form>
+        <p>Kart</p>
+      </div>
+      <div class="sections">
+        <button>Torget</button>
+        <button>Eiendom</button>
+        <button>Reise</button>
+        <button>Båt</button>
+        <button>MC</button>
+        <button>Feriehjem og hytter til leie</button>
+      </div>
+      <div class="sections">
+        <button>Jobb</button>
+        <button>Bil og næring</button>
+        <button>Nybrukt mobil</button>
+        <button>Bilabbonnement</button>
+        <button>Nettbil</button>
+        <button>Mittanbud</button>
+      </div>
+
+      <div class="suggestions">
+        <div class="suggestions__header">
+          <h2>Anbefalinger til deg</h2>
+          <p>Hvorfor anbefaler vi disse annonsene?</p>
+        </div>
+        <div class="card">
+          <figure>
+            <img
+              class="card__img"
+              src="img/project-imgs/DAB03919-10470989.webp"
+              alt="An image of appartment"
+            />
+          </figure>
+          <p><span>Nesoddtangen</span></p>
+          <h2>Lys toroms leilighet med hage og uteplass</h2>
+        </div>
+        <div class="card">
+          <figure>
+            <img
+              class="card__img"
+              src="img/project-imgs/DAB03919-10470989.webp"
+              alt="An image of appartment"
+            />
+          </figure>
+          <p><span>Nesoddtangen</span></p>
+          <h2>Lys toroms leilighet med hage og uteplass</h2>
+        </div>
+        <div class="card">
+          <figure>
+            <img
+              class="card__img"
+              src="img/project-imgs/DAB03919-10470989.webp"
+              alt="An image of appartment"
+            />
+          </figure>
+          <div class="card__description">
+            <p><span>Nesoddtangen</span></p>
+            <h2>Lys toroms leilighet med hage og uteplass</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum quia itaque modi ipsa nobis quibusdam ab voluptate
+              alias debitis quis aspernatur molestiae provident vitae,
+              cupiditate earum suscipit necessitatibus velit quas?
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>

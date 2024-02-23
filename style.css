@@ -1,12 +1,63 @@
-.header * {
-    display: inline-block;
+main {
+    padding: 0 10% 0 10%;
 }
 
-.header__logo {
-    max-width: 30px;
-    width: 5%;
+.header {
+    display: flex;
+}
+
+.header__logo * {
+    width: 100%;
+    max-width: 60px;
+    margin: 0 auto;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .header__nav * {
-    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.search {
+    display: flex;
+}
+
+.search * {
+    width: 80%;
+}
+
+.sections {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sections>* {
+    border: 0;
+    background-color: white;
+    padding: 4%;
+}
+
+.suggestions {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.suggestions__header {
+    margin-right: 60%;
+    display: flex;
+}
+
+.card {
+    width: 33.33%;
+}
+
+.card__img {
+    width: 100%;
+    max-width: 300px;
 }
